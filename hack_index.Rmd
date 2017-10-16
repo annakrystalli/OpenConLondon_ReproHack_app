@@ -6,10 +6,10 @@ runtime: shiny
 ---
 ![](https://d3n8a8pro7vhmx.cloudfront.net/righttoresearch/pages/1462/features/original/OpenCon_2017_London_-_NB_Banner.png?1505763567)
 
-# **OpenCon London 2017 Reproducibility Hack...Take 2!**
+# **OpenCon London 2017 Hackathon**
 <br>
 
-#### **21 Nov 2017 10am - 6pm (or till we get kicked out)**
+#### **21 Nov 2017, 9am - 5pm (OpenCon London evening event will commence afterwards)**
 ##### [**Digital Science**](https://www.digital-science.com/)
 ###### [***The Stables 2 Trematon Walk, Kings Cross, N1 9FN, London***](https://goo.gl/maps/7zAo98pSzB82)
 
@@ -36,9 +36,13 @@ What we love about this approach, and why we think it fits well in the space of 
 
 This is by no means an attempt to discredit work so consent by authors will be sought and their involvement is encouraged. We see reproduction as beneficial scientific activitiy in itself, with useful outcomes for the papers and valuable learning experiences for the participants. We hope to feedback our experiences to authors and of course spread the word on successful practice!
 
-## Plus a more traditional **open source hack track**
+## Plus an **open source hack track**
 
-For folks that want to get their hands dirty contributing to open source projects, we'll also offer a more traditional collaborative coding track. But we offer the opportunity for Open project leads to submit their projects for work
+For folks who want to get their hands dirty **contributing to open source projects for Open Science**, we'll also offer a collaborative coding track. The idea is for participants **to get together to create Open Science tools with a focus on reproducible research**. 
+
+You don't have to be a coder to take part in the hack - **anyone with an interest in creating better tools for Open Science is invited**, from designers and researchers to librarians, project managers, communicators, and so on.
+
+**We offer the opportunity for project leads to submit their projects for work.** Projects can either be for a completely new tool, or build on top of existing work. The only requirement is that you should have something to present at the end of the day, be that a concept, mock-ups or a working prototype.
 
 
 
