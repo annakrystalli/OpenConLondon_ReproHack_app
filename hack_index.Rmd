@@ -1,12 +1,12 @@
 ---
-output: 
+output:
     html_document:
         theme: simplex
 runtime: shiny
 ---
 ![](https://d3n8a8pro7vhmx.cloudfront.net/righttoresearch/pages/1462/features/original/OpenCon_2017_London_-_NB_Banner.png?1505763567)
 
-# **OpenCon London 2017 Hackathon**
+# **OpenCon London 2017 Do-athon**
 <br>
 
 #### **21 Nov 2017, 9am - 5pm (OpenCon London evening event will commence afterwards)**
@@ -18,19 +18,19 @@ runtime: shiny
 ### [**REGISTER**](https://www.eventbrite.co.uk/e/opencon-London-hackathon-tickets-28890667765)
 ***
 
-### We're kicking off [**OpenCon London 2017**](http://www.opencon2017.org/opencon_2017_London) with a 
-## **`2 track hack / creative collaborative coding event!`**
+### We're kicking off [**OpenCon London 2017**](http://www.opencon2017.org/opencon_2017_London) with a
+## **`2 track do-athon!`**
 
-There'll be plenty of options to work on a variety of projects according to skills and interest. 
+There'll be plenty of options to work on a variety of projects according to skills and interest.
 
 <br>
 
-#### We are continuing with the core theme developed for [OpenCon Berlin 2016](https://annakrystalli.shinyapps.io/OpenConBerlin_reprohack/): 
+#### We are continuing with the core theme developed for [OpenCon Berlin 2016](https://annakrystalli.shinyapps.io/OpenConBerlin_reprohack/):
 ## the **paper reproducibility hack!** (aka **#ReproHack17**)
 
-We are all excited by the progress made by many to **make their papers fully reproducible by publishing code and data**. We know how challenging it can be so we want to showcase the value of the practice, both for original authors and and as a learning experience for the reproducers. 
+We are all excited by the progress made by many to **make their papers fully reproducible by publishing code and data**. We know how challenging it can be so we want to showcase the value of the practice, both for original authors and and as a learning experience for the reproducers.
 
-Inspired by **Owen Petchey's** [**Reproducible Research in Ecology, Evolution, Behaviour, and Environmental Studies course**](https://github.com/opetchey/RREEBES), where students attempt to  reproduce the analyses and figures of a paper from the raw data, we want to attempt to do the same. While they take a few months over a number of sessions, we only have a day so instead we'll be trying to do the same but with **papers that have also published code**. 
+Inspired by **Owen Petchey's** [**Reproducible Research in Ecology, Evolution, Behaviour, and Environmental Studies course**](https://github.com/opetchey/RREEBES), where students attempt to  reproduce the analyses and figures of a paper from the raw data, we want to attempt to do the same. While they take a few months over a number of sessions, we only have a day so instead we'll be trying to do the same but with **papers that have also published code**.
 
 What we love about this approach, and why we think it fits well in the space of a hack, is that it provides a low-pressure environment to actually get working with other people's code and data. Attempting reproduction provides an opportunity to test how reproducible papers are **'out of the box'**, enabling evaluation of how successful current practices are, identifying what worked and where the most pressing weaknessess are.
 
@@ -38,7 +38,7 @@ This is by no means an attempt to discredit work so consent by authors will be s
 
 ## Plus an **open source hack track**
 
-For folks who want to get their hands dirty **contributing to open source projects for Open Science**, we'll also offer a collaborative coding track. The idea is for participants **to get together to create Open Science tools with a focus on reproducible research**. 
+For folks who want to get their hands dirty **contributing to open source projects for Open Science**, we'll also offer a collaborative coding track. The idea is for participants **to get together to create Open Science tools with a focus on reproducible research**.
 
 You don't have to be a coder to take part in the hack - **anyone with an interest in creating better tools for Open Science is invited**, from designers and researchers to librarians, project managers, communicators, and so on.
 
@@ -46,17 +46,11 @@ You don't have to be a coder to take part in the hack - **anyone with an interes
 
 
 
-
-
-
-### **a collaborative output:**
-
-We want to **collaborativelly collate and communicate our experiences and outputs** during the session. By collating information and discussions openly through [**github**](https://github.com/features) and collaboratively contributing narrative, we hope to end up with at least a comprehensive blog post or potentially a short paper using [**overleaf**](https://www.overleaf.com/?utm_expid=71700200-7.jX1xSGOgQzGKvOn08hBHag.0).
-
-##### **Go to event** [**github repo**](https://github.com/annakrystalli/OpenConLondon_ReproHack)
+##### **Go to event** [**github repo**](https://github.com/annakrystalli/OpenCon_London-Doathon)
 
 <br>
 
+# **PROPOSE**
 ### **Nominate a paper for #ReproHack2017:**
 
 We invite nominations from anyone, especially if you would like to **test one of your own papers!** Either way, we encourage proponents to seek consent from the original authors for their nominations.
@@ -65,30 +59,39 @@ We invite nominations from anyone, especially if you would like to **test one of
 
 ```{r, echo=FALSE}
 library("shiny")
- wellPanel(a("Nominate Paper", class = "btn btn-primary btn-md", 
-          href = "https://goo.gl/forms/xHWFILMaxTcZi7GC3"))
+ wellPanel(a("Nominate Paper", class = "btn btn-primary btn-md",
+          href = "https://docs.google.com/spreadsheets/d/1SrilwVRcwT29WUx9g-PTzshDp1BsRZx63DEsxBTWX7A/edit#gid=1602965395"))
 ```
 
 
 
 ### **Nominate an Open Source project:**
 
-We invite nominations from anyone, especially if you would like to **test one of your own papers!** Either way, we encourage proponents to seek consent from the original authors for their nominations.
+```{r, echo=FALSE}
+  wellPanel(a("Nominate an OS Project", class = "btn btn-primary btn-md",
+          href = "https://goo.gl/forms/Szp4Y3m5EeOb0Qpf1"))
+```
+
+
+<br>
+
+***
 
 ```{r, echo=FALSE}
-  wellPanel(a("Nominate an OS Project", class = "btn btn-primary btn-md", 
-          href = "https://goo.gl/forms/DJoAHVDCeWlG92b03"))
+ wellPanel(a("Refresh proposal list", class = "btn btn-primary btn-md",
+          href = "javascript:history.go(0)"))
 ```
 
 ***
+
+<br>
+
+# ***DO: Reproduce!***
+
 <br>
 
 ## **Proposed papers:**
 
-```{r, echo=FALSE}
- wellPanel(a("Refresh paper list", class = "btn btn-primary btn-md", 
-          href = "javascript:history.go(0)"))
-```
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 pacman::p_load(googlesheets)
@@ -97,15 +100,15 @@ suppressMessages(gs_auth(token = "googlesheets_token.rds", verbose = FALSE))
 
 
 ```{r, message=FALSE, results='asis', warning=FALSE,  echo=FALSE}
-responses_gs <- gs_title("OpenCon Berlin Reproducibility Hack (Responses)")
+responses_gs <- gs_title("OpenCon London Reproducibility Hack (Responses)")
 responses <- gs_read(responses_gs)
 
 
 for (i in 1:nrow(responses)){
     cat('\n')     
     cat('\n')
-    cat('\n') 
-    cat("### **", i,". ", as.character(responses[i, "Paper title"]), "**", "\n", "\n", sep = "") 
+    cat('\n')
+    cat("### **", i,". ", as.character(responses[i, "Paper title"]), "**", "\n", "\n", sep = "")
     cat("**", gsub("\n", "", gsub("[*]", "", as.character(responses[i, "Paper citation"]))), "\n**", "\n", "\n", sep = "")
     cat("##### *submitted by ", as.character(responses[i, "Name"]),"*", "\n")
     cat('\n')
@@ -121,15 +124,60 @@ for (i in 1:nrow(responses)){
     cat('\n', "\n")
     cat("**Required programming skills:**", as.character(responses[i, "Required programming skills"]), "\n")
     cat('\n', "\n",'\n')
-    
-    
+
+
 }
 
 ```
 
-## **Proposed OS projects:**
+
+<br>
+<br>
 
 ***
+
+# ***DO: Hack!***
+
+<br>
+
+## **Proposed OS projects:**
+
+
+```{r, message=FALSE, results='asis', warning=FALSE,  echo=FALSE}
+responses_gs_os <- gs_title("Hackathon project proposals (Responses)")
+responses <- gs_read(responses_gs_os)
+
+
+for (i in 1:nrow(responses)){
+    cat('\n')     
+    cat('\n')
+    cat('\n')
+    cat("### **", i,". ", as.character(responses[i, "Title"]), "**", "\n", "\n", sep = "")
+
+    cat("###### *submitted by ", as.character(responses[i, "Name"]),"*", "\n")
+    cat('\n')
+    cat('\n')
+    cat("**Team affiliation (if any):  **")
+    cat(as.character(responses[i, "Which organisation is your team affiliated with? (if any)"]), "  ",
+        as.character(responses[i, "Website of your team/organisation (if any)"]), "\n", "\n", "\n")
+    cat("#### **Project description**", "\n", "\n")
+    cat(paste("######",as.character(responses[i, "Short description"])), " \n")
+    cat('\n', '\n', '\n')
+    cat('\n')
+    cat("**What are you hoping to present at the end of the day?**", as.character(responses[i, "What are you hoping to present at the end of the day?"]), "\n")
+    cat('\n', "\n")
+    cat("**Specific expertise needed:**", as.character(responses[i, "Specific expertise needed"]), "\n", "\n")
+        cat("**Expertise you/your team are bringing?**", as.character(responses[i, "Expertise you/your team are bringing"]), "\n")
+    cat('\n', "\n",'\n')
+
+
+}
+
+```
+
+***
+
+
 
 <br>
 <br>
@@ -140,7 +188,7 @@ for (i in 1:nrow(responses)){
 
 ### get in touch
 
-Chat to us on [**gitter**](https://gitter.im/OCB_ReproHack/Lobby) or check out the [**hackpad**](https://public.etherpad-mozilla.org/p/OpenConLondon2017_ReproHack)
+Chat to us on [**gitter**](https://gitter.im/OpenCon_London-Doathon/Lobby) or check out the [**hackpad**](https://public.etherpad-mozilla.org/p/OpenConLondon2017_Doathon)
 
 <br>
 
@@ -150,5 +198,3 @@ Chat to us on [**gitter**](https://gitter.im/OCB_ReproHack/Lobby) or check out t
 <img src="https://f.hypotheses.org/wp-content/blogs.dir/930/files/2016/01/Altmetric-logo.jpg" width="150px"></img>
 <img src="http://www.nordp.org/assets/SponsorLogos/digitalscience.png" width="150px"></img>
 <img src="http://lorenabarba.com/wp-content/uploads/2013/02/fig.share_FullColour.jpg" width="200px"></img>
-
-
